@@ -1,0 +1,34 @@
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.products ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    gap: 1rem;
+    font-size: 12px;
+}
+
+.products li {
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.1rem;
+}
+
+.products img {
+    border-radius: 4px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    object-fit: cover;
+    background: #fff;
+}
+
+.products h3 {
+    margin: 0;
+}
