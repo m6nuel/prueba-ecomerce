@@ -31,10 +31,10 @@ function Filters () {
           onChange={handleChangePrice}
           value={filters.minPrice}
         />
-        <span>$ {filters.minPrice}</span>
+        <div>$ {filters.minPrice}</div>
       </div>
       <div>
-        <label htmlFor={filterPrice}>Categoria</label>
+        <label htmlFor={filterPrice}>Categoria: </label>
         <select id={filterCategory} onChange={handlechangeCategory}>
           <option value="all">Todas</option>
           <option value="laptops">Portatiles</option>

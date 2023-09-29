@@ -32,3 +32,9 @@
 .products h3 {
     margin: 0;
 }
+
+.products button {
+    padding: 0;
+    position: relative;
+    left: 60px
+}
