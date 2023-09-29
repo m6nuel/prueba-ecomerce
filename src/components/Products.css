@@ -34,5 +34,8 @@
 }
 
 .products button {
-    padding: 0;
+    padding: 5px;
+    width: fit-content;
+    position: relative;
+    right: -115px;
 }

@@ -26,7 +26,7 @@ function Filters () {
         <input
           type='range'
           min='0'
-          max='800'
+          max='1000'
           id={filterPrice}
           onChange={handleChangePrice}
           value={filters.minPrice}
