@@ -1,7 +1,6 @@
-import { products } from '../mocks/products.json'
+/* eslint-disable react/prop-types */
 import './Products.css'
-
-function Products () {
+function Products ({products}) {
   return (
     <main className='products'>
       <ul>
@@ -10,7 +9,7 @@ function Products () {
             <li key={products.id}>
               <img src={products.thumbnail} alt={products.category} />
               <div>
-                <h3>{products.title}</h3>
+                <span>{products.title}</span>
               </div>
               <div>
                 <strong>${products.price}</strong>
