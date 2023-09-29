@@ -1,13 +1,11 @@
 import './App.css'
-import { products } from './mocks/products.json'
+import Products from './components/Products'
 
-function App() {
-  console.log(products)
-
+function App () {
   return (
     <>
       <h1>Ecomerce</h1>
-
+      <Products />
     </>
   )
 }
