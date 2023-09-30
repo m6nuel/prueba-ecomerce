@@ -29,8 +29,8 @@
 }
 
 .cart footer button {
-  padding: 8px;
-  position: fixed;
+  padding: 4px;
+  /* position: fixed; */
 }
 
 .cart-button {
